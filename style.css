@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+  background-color:
+lightblue;
+  background-image: url("https://s3u.tmimgcdn.com/u37752224/0a2d1771bdff538f1f965d8cd475b051.gif");
+ 
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px white;
+    overflow: hidden;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#music-player {
+    visibility:hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+}
+audio {
+    width: 50%;
+}
+
+h1{
+    color: rgb(60, 122, 255);
+    font-family:'Montserrat', sans-serif; 
+    font-weight: 700;
+    font-size: 35px;
+}
+p{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 119);
+    font-size: 13px;
+}
+#img1{
+    border-radius: 20%;
+}
+
+#parr{
+    font-size:medium;
+}
+footer{
+    font-size: 10px;
+    font-family:'Montserrat', sans-serif; 
+    font-weight: 700;
+}
